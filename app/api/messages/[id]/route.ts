@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { supabaseServer } from '@/lib/supabase';
+import { supabaseServer } from '../../../../lib/supabase';
 
 type RouteContext = {
   params: Promise<{
